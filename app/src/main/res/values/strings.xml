@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">DACK_LTDD</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hint_Phone">Nhập Vào Số Điện Thoại</string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hint_Username">Họ Và Tên</string>
+    <string name="hint_Email">Email</string>
+
+    <string name="ambulance">Gọi Cứu thương</string>
+    <string name="fire_fight">Gọi Cứu Hỏa</string>
+    <string name="security">Gọi An ninh</string>
+
+    <string name="repAmbulance">Thông báo tai nạn</string>
+    <string name="repFire_fight">Thông báo chửa cháy</string>
+    <string name="repSecurity">Thông báo an ninh</string>
+    <string name="repTrouble">Thông báo cứu hộ</string>
+    <string name="Tips">Kỹ năng xữ lý sự cố</string>
+    <string name="Camera">Mở máy ảnh</string>
+    <string name="title_activity_ambulance">AmbulanceActivity</string>
+    <string name="title_activity_firefight">FirefightActivity</string>
+    <string name="KEY_API_GGPLACE">AIzaSyBQ3Gs_WtgHk0ieWEwAgk1cm65FS-7W0L8</string>
+
+
+    <string name="title_activity_security">SecurityActivity</string>
+
+</resources>
