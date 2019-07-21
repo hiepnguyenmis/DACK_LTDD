@@ -2,8 +2,8 @@ PROJECT OUTLINE
 PROJECT: E-HOTLINE APPLICATION
 
 Student Name: Nguyen Van Hiep
-Class: 
-Student Code: 
+Class: D16HT01
+Student Code: 1624801040019
 Functions:
 1.	Authentication (Administrator, User)
 2.	Account management (Administrator)
