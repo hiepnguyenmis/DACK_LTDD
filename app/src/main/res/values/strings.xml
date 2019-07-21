@@ -12,11 +12,14 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_logout">Log out</string>
 
 
     <string name="title_activity_login">LoginActivity</string>
     <string name="hint_Phone">Nhập Vào Số Điện Thoại</string>
+
+    <string name="hint_Authentica">Nhập vào mã OTP</string>
+    <string name="title_Waiting_Code">Mã Xác Thực Đã Được Gửi Đến Bạn</string>
 
     <string name="title_activity_register">RegisterActivity</string>
     <string name="hint_Username">Họ Và Tên</string>
@@ -38,5 +41,7 @@
 
 
     <string name="title_activity_security">SecurityActivity</string>
+    <string name="title_activity_authentication">AuthenticationActivity</string>
+    <string name="title_activity_verify_phone">VerifyPhoneActivity</string>
 
 </resources>

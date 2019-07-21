@@ -9,7 +9,7 @@
     tools:showIn="@layout/activity_login">
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edPhone"
         android:layout_width="368dp"
         android:layout_height="44dp"
         android:layout_marginStart="8dp"
