@@ -28,9 +28,7 @@
             android:label="@string/title_activity_verify_phone"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="KEY_API_GGPLACE" />
+        
 
         <activity
             android:name=".SecurityActivity"
