@@ -14,30 +14,68 @@
         android:background="@color/colorPrimary"
         tools:ignore="MissingConstraints">
 
-        <EditText
-            android:id="@+id/edLocalSecurity"
-            android:layout_width="356dp"
-            android:layout_height="52dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="35dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="24dp"
-            android:background="@color/While" />
-
-        <TextView
-            android:id="@+id/edAdressSecuriry"
-            android:layout_width="356dp"
-            android:layout_height="52dp"
+        <Spinner
+            android:id="@+id/edAdressSecurity"
+            android:layout_width="226dp"
+            android:layout_height="50dp"
             android:layout_below="@+id/edLocal"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="35dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="17dp"
-            android:layout_marginBottom="44dp"
+            android:layout_marginBottom="46dp"
             android:background="@color/While"
             android:text="" />
+
+        <Spinner
+            android:id="@+id/spDistrictsSecurity"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/edAdress"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="11dp"
+            android:layout_toEndOf="@+id/spWardSecurity"
+            android:background="@color/While" />
+
+        <Spinner
+            android:id="@+id/spProvinceSecurity"
+            android:layout_width="87dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toEndOf="@+id/spDistrictsSecurity"
+            android:background="@color/While"/>
+
+        <Spinner
+            android:id="@+id/spWardSecurity"
+            android:layout_width="101dp"
+            android:layout_height="54dp"
+            android:layout_above="@+id/edAdressSecurity"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/While"/>
+
+        <Button
+            android:id="@+id/btnFindAmbulSecurity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spProvinceSecurity"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="29dp"
+            android:layout_toEndOf="@+id/edAdressSecurity"
+            android:background="@color/Danger"
+            android:text="Tìm"
+            android:textColor="#F8F5F5" />
 
     </RelativeLayout>
 

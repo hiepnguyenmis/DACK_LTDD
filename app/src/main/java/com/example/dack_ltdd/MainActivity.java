@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     FloatingActionButton fab_main,fab_top,fab_mid,fab_bottom;
     Boolean showOrHide=false;
-
+    TextView UserPhone;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -35,6 +36,19 @@ public class MainActivity extends AppCompatActivity
         fab_top=(FloatingActionButton) findViewById(R.id.fab_top);
         fab_mid=(FloatingActionButton) findViewById(R.id.fab_mid);
         fab_bottom=(FloatingActionButton) findViewById(R.id.fab_bottom);
+
+        UserPhone=(TextView) findViewById(R.id.UserPhone);
+
+        Intent intentCallAmbulance= new Intent(MainActivity.this, ReportEmerAmbuActivity.class);
+        startActivity(intentCallAmbulance);
+
+        Intent intentCallSecurity= new Intent(MainActivity.this, ReportEmerSecurActivity.class);
+        startActivity(intentCallSecurity);
+
+        Intent intentCallFireFight= new Intent(MainActivity.this, ReportEmerFireActivity.class);
+        startActivity(intentCallFireFight);
+
+
 
         FloatingActionButton fab_main = findViewById(R.id.fab_main);
         fab_main.setOnClickListener(new View.OnClickListener() {
@@ -66,6 +80,12 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        String numberPhone=getIntent().getStringExtra("mobile");
+        if(numberPhone!=null){
+            UserPhone.setText(numberPhone);
+        }
+
     }
 
     @Override
@@ -141,6 +161,8 @@ public class MainActivity extends AppCompatActivity
         fab_mid.show();
         fab_bottom.show();
     }
+
+
 
 
 }

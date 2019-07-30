@@ -64,6 +64,9 @@ public class VerifyPhoneActivity extends AppCompatActivity {
         });
 
     }
+    /*Get service*/
+
+    /*AuthCredential number phone use firebase*/
     private void verifyCode(String code){
         PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verificationId,code);
         signInWithCredentical(credential);
@@ -75,8 +78,11 @@ public class VerifyPhoneActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-/*chuyển trang đang ký*/
+                           /*chuyển trang đang ký*/
+                            String numberPhone=getIntent().getStringExtra("mobile");
+
                             Intent intent= new Intent(VerifyPhoneActivity.this,MainActivity.class);
+
                             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
 
                             startActivity(intent);
@@ -119,4 +125,6 @@ public class VerifyPhoneActivity extends AppCompatActivity {
             Toast.makeText(VerifyPhoneActivity.this, e.getMessage(),Toast.LENGTH_LONG).show();
         }
     };
+
+
 }

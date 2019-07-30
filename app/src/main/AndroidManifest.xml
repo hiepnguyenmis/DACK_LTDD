@@ -12,11 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ReportEmerSecurActivity"
+            android:label="@string/title_activity_report_emer_secur"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ReportEmerFireActivity"
+            android:label="@string/title_activity_report_emer_fire"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReportEmerAmbuActivity"
+            android:label="@string/title_activity_report_emer_ambu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".VerifyPhoneActivity"
             android:label="@string/title_activity_verify_phone"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -41,7 +51,7 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -51,9 +61,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

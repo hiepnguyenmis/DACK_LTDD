@@ -6,7 +6,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+/*menu*/
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -35,13 +35,44 @@
     <string name="repTrouble">Thông báo cứu hộ</string>
     <string name="Tips">Kỹ năng xữ lý sự cố</string>
     <string name="Camera">Mở máy ảnh</string>
-    <string name="title_activity_ambulance">AmbulanceActivity</string>
-    <string name="title_activity_firefight">FirefightActivity</string>
+    /*Report*/
+    <string name="content_title_report">Điền đầy đủ thông tin sự cố của bạn đang mắc phải</string>
+    /*Report emergency Ambulance*/
+
+    <string name="hint_content_address_emer_Ambu">Bạn đang ở?</string>
+    <string name="hint_content_title_emer_Ambu">Mô tả đầy đủ các vấn đề mà bạn dang mắc phải</string>
+    <string name="img_content_emer_Ambu">Hình Ảnh</string>
+    <string name="btn_submit_content_emer_Ambu">Gửi</string>
+    <string name="shot_content_emer_Ambu">Chụp Ảnh</string>
+    /*Report emergency firefight*/
+
+    <string name="hint_content_address_emer_fire">Bạn đang ở?</string>
+    <string name="hint_content_title_emer_fire">Mô tả đầy đủ các vấn đề mà bạn dang mắc phải</string>
+    <string name="img_content_emer_fire">Hình Ảnh</string>
+    <string name="btn_submit_content_emer_fire">Gửi</string>
+    <string name="shot_content_emer_fire">Chụp Ảnh</string>
+
+    /*Report emergency security*/
+
+    <string name="hint_content_address_emer_secur">Bạn đang ở?</string>
+    <string name="hint_content_title_emer_secur">Mô tả đầy đủ các vấn đề mà bạn dang mắc phải</string>
+    <string name="img_content_emer_secur">Hình Ảnh</string>
+    <string name="btn_submit_content_emer_secur">Gửi</string>
+    <string name="shot_content_emer_secur">Chụp Ảnh</string>
+
+    /*google place api*/
+
     <string name="KEY_API_GGPLACE">AIzaSyBQ3Gs_WtgHk0ieWEwAgk1cm65FS-7W0L8</string>
 
 
+    <string name="title_activity_ambulance">AmbulanceActivity</string>
+    <string name="title_activity_firefight">FirefightActivity</string>
     <string name="title_activity_security">SecurityActivity</string>
     <string name="title_activity_authentication">AuthenticationActivity</string>
     <string name="title_activity_verify_phone">VerifyPhoneActivity</string>
+    <string name="title_activity_report_emer_ambu">ReportEmerAmbuActivity</string>
+    <string name="title_activity_report_emer_fire">ReportEmerFireActivity</string>
+    <string name="title_activity_report_emer_secur">ReportEmerSecurActivity</string>
+
 
 </resources>
