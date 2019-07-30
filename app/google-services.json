@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1044881303727",
+    "firebase_url": "https://dackltdd.firebaseio.com",
+    "project_id": "dackltdd",
+    "storage_bucket": "dackltdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044881303727:android:55da32ef476781e8",
+        "android_client_info": {
+          "package_name": "com.example.dack_ltdd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044881303727-c8rqqiuqekojc66rhs5do6fsghmja97a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dack_ltdd",
+            "certificate_hash": "b0eae09ebec180b81133e6a5d1670a3c49193826"
+          }
+        },
+        {
+          "client_id": "1044881303727-50fs8h7lcnh5dn4umnllt85f57l6ji3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcMVqL_8Mfb-JOLyideeroqSaffYlT5BU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044881303727-50fs8h7lcnh5dn4umnllt85f57l6ji3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
